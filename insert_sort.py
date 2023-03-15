@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 
-"""选择排序：
-选取第一个为基准创建有序队列，之后设定为无序队列，
-取无序队列元素与之前有序队列比较，插入合适位置
-"""
-
 
 def insert_sort(data):
     _len = len(data)
